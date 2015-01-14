@@ -1,0 +1,24 @@
+{
+    "name": "berk/sms",
+    "description": "",
+    "authors": [
+        {
+            "name": "Berk",
+            "email": "berkcekisbas@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        
+        "psr-0": {
+            "Berk\\Sms\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
